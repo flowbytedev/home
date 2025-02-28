@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowbyte | Intelligent Data Solutions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-blue-600 font-bold text-2xl">Flowbyte</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#solutions" class="text-gray-700 hover:text-blue-600 transition">Solutions</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Contact Us</a>
+                </div>
+                <div class="flex md:hidden items-center">
+                    <button class="text-gray-700">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Transform Your Data Into Business Intelligence</h1>
+                    <p class="text-xl mb-8">Building the data infrastructure you need for insights that drive growth. From data warehouses to AI-powered forecasting, we turn your data challenges into opportunities.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-md font-medium text-center hover:bg-gray-100 transition">Schedule a Consultation</a>
+                        <a href="#services" class="border border-white text-white px-6 py-3 rounded-md font-medium text-center hover:bg-white hover:bg-opacity-10 transition">Explore Services</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="./images/data-analytics.webp" alt="Data Analytics Visualization" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Value Proposition -->
+    <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose Flowbyte?</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">We build reliable, scalable data solutions that turn your raw data into actionable insights, empowering your business to make smarter decisions faster.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bolt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Speed & Efficiency</h3>
+                    <p class="text-gray-600">Our optimized data pipelines deliver insights when you need them, not hours later.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-shield-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Uncompromising Reliability</h3>
+                    <p class="text-gray-600">Built with redundancy and monitoring, our solutions work when you need them most.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-lightbulb text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">AI-Powered Insights</h3>
+                    <p class="text-gray-600">Turn your data into predictive intelligence with our advanced AI solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Data Services</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">End-to-end data infrastructure and analytics solutions tailored to your business needs.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Data Storage Solutions</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Enterprise-grade data warehouses for structured data</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Scalable data lakes for raw, unprocessed data</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Modern data lakehouses combining the best of both worlds</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Data governance and security implementation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Data Pipeline Development</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Reliable ETL/ELT processes</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Real-time data streaming solutions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Data quality monitoring and validation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Pipeline orchestration and monitoring</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Business Intelligence</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Custom dashboard development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Automated reporting solutions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Self-service analytics platforms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Data visualization and storytelling</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">AI & Advanced Analytics</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Sales forecasting and demand prediction</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Customer segmentation and churn prediction</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Sales channel clustering and optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mr-2">✓</span>
+                            <span>Anomaly detection and predictive maintenance</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Solutions Section -->
+    <div id="solutions" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">AI-Powered Business Solutions</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Our specialized AI solutions deliver actionable insights for critical business challenges.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-chart-line text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Demand Forecasting</h3>
+                    <p class="text-gray-600 mb-4">Predict future sales with machine learning models that analyze historical data, market trends, and external factors.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-users text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Customer Segmentation</h3>
+                    <p class="text-gray-600 mb-4">Group customers based on behavior, preferences, and value to personalize marketing and service strategies.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-door-open text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Churn Prediction</h3>
+                    <p class="text-gray-600 mb-4">Identify customers at risk of leaving with models that detect early warning signs and recommend retention actions.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-sitemap text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Channel Optimization</h3>
+                    <p class="text-gray-600 mb-4">Cluster and analyze sales channels to optimize resource allocation and maximize channel performance.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-search-dollar text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Pricing Optimization</h3>
+                    <p class="text-gray-600 mb-4">Determine optimal pricing strategies using AI models that analyze elasticity, competition, and market conditions.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="h-12 w-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                        <i class="fas fa-robot text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Custom AI Solutions</h3>
+                    <p class="text-gray-600 mb-4">Tailored machine learning solutions for your unique business challenges and opportunities.</p>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Case Studies Section -->
+    <!-- <div class="py-1k6 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Success Stories</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">See how our solutions have transformed data challenges into business success.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Case Study 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Retail Chain Demand Forecasting</h3>
+                        <p class="text-gray-600 mb-4">Reduced inventory costs by 22% while maintaining 99% product availability through AI-powered demand prediction.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read case study →</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Case Study 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">B2B SaaS Customer Retention</h3>
+                        <p class="text-gray-600 mb-4">Increased renewal rates by 15% through early churn prediction and proactive customer success interventions.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read case study →</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Case Study 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Manufacturing Data Modernization</h3>
+                        <p class="text-gray-600 mb-4">Transformed legacy systems into a modern data lakehouse, reducing reporting time from days to minutes.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Read case study →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- CTA Section -->
+    <div class="py-16 bg-gradient-to-r from-blue-600 to-indigo-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Data Strategy?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Schedule a consultation with our data experts and discover how our solutions can drive your business forward.</p>
+            <a href="#contact" class="bg-white text-blue-600 px-8 py-4 rounded-md font-medium text-lg hover:bg-gray-100 transition inline-block">Get Started Today</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Have questions or ready to start? Reach out to our team.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company</label>
+                            <input type="text" id="company" name="company" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Get In Touch</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-6 w-6 text-blue-600">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="ml-3 text-gray-600">
+                                    <p>contact@flowbyte.dev</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-6 w-6 text-blue-600">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="ml-3 text-gray-600">
+                                    <p>+961 (70) 123-456</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-6 w-6 text-blue-600">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="ml-3 text-gray-600">
+                                    <p>Beirut<br>Lebanon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Office Hours</h3>
+                        <p class="text-gray-600">Monday - Friday: 9am - 6pm PST</p>
+                        <p class="text-gray-600">Saturday - Sunday: Closed</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://linkedin.com/in/flowbytedev" class="text-gray-600 hover:text-blue-600">
+                                <i class="fab fa-linkedin text-2xl"></i>
+                            </a>
+                            <a href="https://x.com/flowbytedev" class="text-gray-600 hover:text-blue-600">
+                                <i class="fab fa-twitter text-2xl"></i>
+                            </a>
+                            <a href="https://github.com/flowbytedev" class="text-gray-600 hover:text-blue-600">
+                                <i class="fab fa-github text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Flowbyte</h3>
+                    <p class="text-gray-400">Transforming data into business intelligence with reliable, scalable solutions.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">Data Storage</a></li>
+                        <li><a href="#" class="hover:text-white transition">Data Pipelines</a></li>
+                        <li><a href="#" class="hover:text-white transition">Business Intelligence</a></li>
+                        <li><a href="#" class="hover:text-white transition">AI Solutions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Case Studies</a></li>
+                        <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white transition">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Flowbyte, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
