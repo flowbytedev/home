@@ -557,7 +557,7 @@ const Home: React.FC = () => {
                 ))}
               </ul>
 
-              <Button href="https://talktodata.ai" variant="primary">
+              <Button href="https://talktodata.io" variant="primary">
                 Explore AI Solutions
               </Button>
             </div>
